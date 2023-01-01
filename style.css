@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #9769c5;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e1dbe9;
+    color: #9769c5;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar-container .avatar{
+    width: 250px;
+    height: 250px;
+    border: 2px solid var(--purple);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.insta_user-container{
+    margin-top: 13px;
+    font-size: 1.1em;
+}
+
+
+.links-container{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    margin: 8px;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    padding: 9px 140px 9px 140px;
+
+    transition: ease 0.3s;
+}
+
+
+/* hover = Sempre que o mouse passar por cima do elemento, 
+fazer uma ação */
+.link:hover {
+    background-color: #9769c5;
+    color: #FAF7FD;
+}
+
+
+
+.social-container
+{   
+    margin-top: 17px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.social{
+    transform: scale(1);
+
+}
+
+/* hover = Sempre que o mouse passar por cima do elemento, 
+fazer uma ação */
+.social:hover{
+    transform: scale(1.1);
+}
